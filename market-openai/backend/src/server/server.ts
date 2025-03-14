@@ -3,7 +3,6 @@ import cors from 'cors';
 import { json } from 'body-parser';
 import path from 'path';
 import dotenv from 'dotenv';
-import OpenAI from 'openai';
 import route from '../routes/routes';
 
 dotenv.config({
@@ -14,27 +13,35 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: "*",
+        methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+        allowedHeaders: ["Content-Type", "Authorization"],
+        credentials: true,
+    }
+));
 app.use(json());
 app.use(express.urlencoded({ extended: true }));
 
-const allowedOrigins = [
-    process.env.CLIENT_URL || "http://localhost:5173",
-    "https://custom-snippetsv1.netlify.app/"
-];
+//const allowedOrigins = [
+//    process.env.CLIENT_URL || "http://localhost:5173",
+//    "https://custom-snippetsv1.netlify.app/"
+//];
+//
+//app.use(cors({
+//    origin: function (origin, callback) {
+//        if (!origin || allowedOrigins.includes(origin)) {
+//            callback(null, origin);
+//        } else {
+//            callback(new Error("Not allowed by CORS"));
+//        }
+//    },
+//    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+//    allowedHeaders: ["Content-Type", "Authorization"],
+//    credentials: true,
+//}));
 
-app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, origin);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true,
-}));
 app.use("/api/v1", route);
 
 app.listen(PORT, () => {
