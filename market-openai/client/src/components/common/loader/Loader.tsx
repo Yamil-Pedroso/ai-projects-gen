@@ -1,4 +1,4 @@
-import { LoaderAni } from "../styles"
+import { LoaderAni } from "./styles"
 
 const Loader = () => {
   return (
