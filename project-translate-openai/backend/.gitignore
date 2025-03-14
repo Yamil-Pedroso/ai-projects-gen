@@ -66,6 +66,7 @@ build/
 # dotenv environment variables file
 config.env
 .env.local
+.env
 .env.development.local
 .env.test.local
 .env.production.local
