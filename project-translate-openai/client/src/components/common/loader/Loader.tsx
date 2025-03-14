@@ -1,10 +1,8 @@
-
+import { LoaderAni } from "./styles"
 
 const Loader = () => {
   return (
-    <span className="loader">
-
-    </span>
+    <LoaderAni />
   )
 }
 

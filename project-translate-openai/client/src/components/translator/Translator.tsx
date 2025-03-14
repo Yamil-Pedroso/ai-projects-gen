@@ -14,7 +14,8 @@ import {
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { RiRobot2Line } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa6";
-//import Loader from "../common/loader/Loader";
+import Loader from "../common/loader/Loader";
+import { toast } from "sonner";
 
 const BOX_COUNT = 10;
 
@@ -37,6 +38,7 @@ const languages = [
 ];
 
 const Translator = () => {
+  const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const [messages, setMessages] = useState<IMessage[]>([]);
   const [chatText, setChatText] = useState("");
@@ -101,25 +103,31 @@ const Translator = () => {
 
   const handleTranslate = async () => {
     if (!chatText.trim()) {
-      alert("Please type a message to translate");
+      toast("Please enter a message");
       return;
     }
 
     setChatHistory((prev) => [...prev, { text: chatText, type: "user" }]);
+    setLoading(true);
 
     try {
       const response = await translate(chatText, targetLang);
       const translatedText = response?.translatedText || "Translation failed";
 
-      setChatHistory((prev) => [...prev, { text: translatedText, type: "ai" }]);
+      setChatHistory((prev) => [
+        ...prev.filter((msg) => msg.text !== "loading..."),
+        { text: translatedText, type: "ai" },
+      ]);
 
       setChatText("");
     } catch (error) {
       console.error("Translation error:", error);
       setChatHistory((prev) => [
-        ...prev,
+        ...prev.filter((msg) => msg.text !== "loading..."),
         { text: "Error translating text", type: "ai" },
       ]);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -188,6 +196,17 @@ const Translator = () => {
               )}
             </motion.div>
           ))}
+
+          {loading && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="chat__loading"
+            >
+              <Loader />
+            </motion.div>
+          )}
           <div ref={messagesEndRef} />
         </div>
 
