@@ -5,6 +5,8 @@ import { FaRegUser } from "react-icons/fa6";
 import images from "../../assets/images";
 import { Chat, Container, Header } from "./styles";
 import { businessChatService } from "../../services/businessChatService";
+import Loader from "../common/loader/Loader";
+import { toast } from "sonner";
 
 interface ChatMessage {
   text: string;
@@ -15,6 +17,7 @@ const BusinessChat = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const [chatText, setChatText] = useState("");
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
+  const [loading, setLoading] = useState(false);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -26,25 +29,31 @@ const BusinessChat = () => {
 
   const handleChatBot = async () => {
     if (!chatText.trim()) {
-      alert("Please enter a message");
+      toast("Please enter a message");
       return;
     }
 
     setChatHistory((prev) => [...prev, { text: chatText, type: "user" }]);
+    setLoading(true);
 
     try {
       const response = await businessChatService(chatText);
       const reply = response?.reply || "No response from AI";
 
-      setChatHistory((prev) => [...prev, { text: reply, type: "ai" }]);
+      setChatHistory((prev) => [
+        ...prev.filter((msg) => msg.text !== "loading..."),
+        { text: reply, type: "ai" },
+      ]);
 
       setChatText("");
     } catch (error) {
       console.error(error);
       setChatHistory((prev) => [
-        ...prev,
+        ...prev.filter((msg) => msg.text !== "loading..."),
         { text: "Internal server error", type: "ai" },
       ]);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -100,7 +109,18 @@ const BusinessChat = () => {
               )}
             </motion.div>
           ))}
-           <div ref={messagesEndRef} />
+
+          {loading && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="chat__loading"
+            >
+              <Loader />
+            </motion.div>
+          )}
+          <div ref={messagesEndRef} />
         </div>
 
         <div className="chat__input-group">
