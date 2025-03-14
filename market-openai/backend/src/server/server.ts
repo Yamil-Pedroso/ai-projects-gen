@@ -18,10 +18,23 @@ app.use(cors());
 app.use(json());
 app.use(express.urlencoded({ extended: true }));
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
-});
+const allowedOrigins = [
+    process.env.CLIENT_URL || "http://localhost:5173",
+    "https://custom-snippetsv1.netlify.app/"
+];
 
+app.use(cors({
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, origin);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+}));
 app.use("/api/v1", route);
 
 app.listen(PORT, () => {
