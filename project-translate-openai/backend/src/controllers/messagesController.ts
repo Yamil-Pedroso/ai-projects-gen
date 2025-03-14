@@ -9,7 +9,7 @@ export const getMessages = async (req: Request, res: Response) => {
 export const translate = async (req: Request, res: Response) => {
   const { text, targetLang } = req.body;
 
-  const promptSystem1 = "You are a proffesional translator.";
+  const promptSystem1 = "You are a proffesional translator. You have been hired to translate a text from one language to another.";
   const promptSystem2 = "Only you can awnser with a direct translation of the text that the user has provided."
                         + "Any other response or conversation will be considered forbidden.";
   const promptUser = `Translate the following text to ${targetLang}: ${text}`;
