@@ -1,0 +1,454 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #060704;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto; /* scroll general si fuese necesario */
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 1200px);
+  padding: 2rem;
+  z-index: 999;
+  position: relative;
+}
+
+/* Chat principal, ALTURA FLEXIBLE */
+.chat {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 1rem;
+  width: min(45rem, 100% - 2rem);
+  min-height: 30rem; /* altura mínima cómoda */
+  max-height: 50svh; /* no sobrepasa la altura del viewport */
+  background-color: #151515;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  z-index: 999;
+}
+
+/* Solo el contenedor interno scrollea */
+.chat__messages {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 1; /* ocupa el espacio disponible dentro del chat */
+  min-height: 12rem;
+  border-radius: 0.8rem;
+  background-color: #151515;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* scroll interno */
+}
+
+/* Header y títulos */
+.chat__header {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  z-index: 999;
+}
+.header__icon {
+  width: 5rem;
+  color: #24491f;
+}
+.header__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(185, 185, 185);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.chat__message {
+  display: flex;
+}
+
+.chat__user {
+  align-self: flex-end;
+  margin-right: 1rem;
+  padding: 0.8rem 1.5rem;
+  max-width: 20rem;
+  color: #24491f;
+}
+.chat__ai {
+  align-self: flex-start;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0.8rem 1.5rem;
+  max-width: 20rem;
+}
+
+/* Burbujas */
+.chat__phrase {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.chat__phrase span {
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.chat__phrase .icon {
+  flex-shrink: 0;
+}
+
+/* Input y botones */
+.chat__input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.chat__input {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: 0.3px solid rgb(84, 84, 84);
+  box-shadow: none;
+  font-size: 1.1rem;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  transition: all 300ms ease-in-out;
+}
+.chat__input:focus {
+  border-color: #24491f;
+}
+
+.chat__inputs {
+  display: flex;
+}
+
+.chat__select,
+.chat__btn {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 1.2rem;
+  color: rgb(126, 126, 126);
+  outline: none;
+  border: 0.3px solid rgb(62, 62, 62);
+}
+.chat__btn {
+  background-color: #24491f;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+.chat__btn:hover {
+  background-color: rgb(87, 109, 15);
+}
+
+/* Preferencias */
+.chat__prefs {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.chat__prefs-list {
+  margin-top: 0.6rem;
+  border: 1px solid #333;
+  border-radius: 0.8rem;
+  padding: 0.5rem 0.75rem;
+  background: #151515;
+}
+.chat__prefs-item {
+  display: block;
+  padding: 0.4rem 0.8rem;
+  color: #ddd;
+}
+.chat__prefs-item.active {
+  color: #24491f;
+  font-weight: 600;
+}
+
+/* Instrucciones */
+.chat__instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: min(40rem, 100%);
+}
+.instructions__title {
+  margin: 0 0 0.6rem 0;
+  color: rgb(140, 140, 140);
+}
+.instructions__list {
+  margin: 0;
+  padding-left: 1rem;
+}
+.instructions__item {
+  color: rgb(140, 140, 140);
+}
+.instructions__empty {
+  color: rgb(140, 140, 140);
+}
+
+/* Decorativo */
+.boxes {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(105, 105, 105);
+  position: absolute;
+}
+
+/* =========================
+   Modal del plan nutricional
+   ========================= */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+}
+
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+.modal__card {
+  position: relative;
+  margin: 0 auto;
+  top: 5%;
+  transform: translateY(-50%);
+  width: min(900px, calc(100% - 2rem));
+  max-height: 85svh;
+  overflow: auto;
+  background: #101010; /* fondo oscuro coherente con tu tema */
+  border: 1px solid #2a2a2a;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  padding: 1.25rem 1.25rem 1.5rem;
+}
+
+/* Header del modal */
+.modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.modal__header h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #e6e6e6;
+}
+.modal__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Secciones */
+.modal__section {
+  margin-top: 1rem;
+}
+
+/* KPIs (calorías y macros) */
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+.kpi {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.9rem;
+  padding: 0.85rem;
+}
+.kpi__label {
+  font-size: 0.8rem;
+  color: #9aa0a6;
+}
+.kpi__value {
+  margin-top: 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #b4e021; /* tu verde destacado */
+}
+
+/* Titulares de sección */
+h4 {
+  margin: 0.25rem 0 0.5rem 0;
+  font-size: 1rem;
+  color: #e1e1e1;
+}
+
+/* Listas y texto auxiliar */
+.list {
+  padding-left: 1rem;
+  margin: 0;
+  color: #cfcfcf;
+}
+.muted {
+  color: #9aa0a6;
+}
+
+/* Días y comidas */
+.days {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+.day {
+  background: #151515;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.9rem;
+  padding: 0.9rem;
+}
+.day__title {
+  color: #eaeaea;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.meals {
+  display: grid;
+  gap: 0.5rem;
+}
+.meal__name {
+  font-weight: 600;
+  color: #d8d8d8;
+  margin-bottom: 0.25rem;
+}
+.meal__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+.chip {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: 1px solid #2a2a2a;
+  background: #111;
+  color: #dcdcdc;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}
+.meal__recipe {
+  font-size: 0.9rem;
+  color: #cfcfcf;
+}
+
+/* Shopping list (grid 2 columnas) */
+.grid {
+  display: grid;
+  gap: 0.75rem;
+}
+.grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.card {
+  background: #151515;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.9rem;
+  padding: 0.9rem;
+}
+.card__title {
+  font-weight: 600;
+  color: #eaeaea;
+  margin-bottom: 0.4rem;
+}
+
+/* Botones del modal */
+.btn {
+  background: rgb(120, 149, 23); /* tu primario */
+  color: #fff;
+  border: 0;
+  border-radius: 0.8rem;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 150ms ease-in-out;
+}
+.btn:hover {
+  background: rgb(87, 109, 15);
+}
+.btn--ghost {
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  color: #ddd;
+}
+.btn--ghost:hover {
+  background: #1a1a1a;
+}
+
+/* Scrollbar del modal (opcional, solo WebKit) */
+.modal__card::-webkit-scrollbar {
+  width: 10px;
+}
+.modal__card::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+.modal__card::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 999px;
+}
+.modal__card::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .days {
+    grid-template-columns: 1fr;
+  }
+  .grid--2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Loader (si lo usas) */
+.loader {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 32px 0 #fff, -32px 0 #fff;
+  position: relative;
+  animation: flash 0.5s ease-out infinite alternate;
+}
+@keyframes flash {
+  0% {
+    background-color: #fff2;
+    box-shadow: 32px 0 #fff2, -32px 0 #fff;
+  }
+  50% {
+    background-color: #fff;
+    box-shadow: 32px 0 #fff2, -32px 0 #fff2;
+  }
+  100% {
+    background-color: #fff2;
+    box-shadow: 32px 0 #fff, -32px 0 #fff2;
+  }
+}

@@ -1,0 +1,2130 @@
+[
+  {
+    "id": 1,
+    "name": "Tomaten",
+    "price": 2.3,
+    "brand": "Coop",
+    "quantity_in_stock": 219
+  },
+  {
+    "id": 2,
+    "name": "Gurke",
+    "price": 1.15,
+    "brand": "Coop",
+    "quantity_in_stock": 65
+  },
+  {
+    "id": 3,
+    "name": "Karotten",
+    "price": 1.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 219
+  },
+  {
+    "id": 4,
+    "name": "Zwiebeln",
+    "price": 1.35,
+    "brand": "Coop",
+    "quantity_in_stock": 181
+  },
+  {
+    "id": 5,
+    "name": "Paprika rot",
+    "price": 1.75,
+    "brand": "Coop",
+    "quantity_in_stock": 53
+  },
+  {
+    "id": 6,
+    "name": "Paprika gelb",
+    "price": 1.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 184
+  },
+  {
+    "id": 7,
+    "name": "Paprika grün",
+    "price": 1.35,
+    "brand": "Coop",
+    "quantity_in_stock": 213
+  },
+  {
+    "id": 8,
+    "name": "Brokkoli",
+    "price": 2.2,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 137
+  },
+  {
+    "id": 9,
+    "name": "Blumenkohl",
+    "price": 2.2,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 101
+  },
+  {
+    "id": 10,
+    "name": "Spinat",
+    "price": 2.1,
+    "brand": "Coop",
+    "quantity_in_stock": 224
+  },
+  {
+    "id": 11,
+    "name": "Salatkopf",
+    "price": 2.0,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 138
+  },
+  {
+    "id": 12,
+    "name": "Rucola",
+    "price": 1.6,
+    "brand": "Coop",
+    "quantity_in_stock": 85
+  },
+  {
+    "id": 13,
+    "name": "Lauch",
+    "price": 1.9,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 56
+  },
+  {
+    "id": 14,
+    "name": "Sellerie",
+    "price": 1.2,
+    "brand": "Coop",
+    "quantity_in_stock": 121
+  },
+  {
+    "id": 15,
+    "name": "Aubergine",
+    "price": 2.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 97
+  },
+  {
+    "id": 16,
+    "name": "Zucchini",
+    "price": 1.9,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 147
+  },
+  {
+    "id": 17,
+    "name": "Pilze Champignons",
+    "price": 2.25,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 50
+  },
+  {
+    "id": 18,
+    "name": "Kartoffeln festkochend (1kg)",
+    "price": 2.25,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 188
+  },
+  {
+    "id": 19,
+    "name": "Süsskartoffeln (kg)",
+    "price": 2.85,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 177
+  },
+  {
+    "id": 20,
+    "name": "Cherry-Tomaten",
+    "price": 2.2,
+    "brand": "Coop",
+    "quantity_in_stock": 41
+  },
+  {
+    "id": 21,
+    "name": "Ingwer",
+    "price": 1.1,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 50
+  },
+  {
+    "id": 22,
+    "name": "Knoblauch",
+    "price": 1.2,
+    "brand": "Coop",
+    "quantity_in_stock": 127
+  },
+  {
+    "id": 23,
+    "name": "Rote Beete",
+    "price": 1.25,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 243
+  },
+  {
+    "id": 24,
+    "name": "Fenchel",
+    "price": 1.9,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 120
+  },
+  {
+    "id": 25,
+    "name": "Kohlrabi",
+    "price": 1.1,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 209
+  },
+  {
+    "id": 26,
+    "name": "Apfel Gala",
+    "price": 2.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 48
+  },
+  {
+    "id": 27,
+    "name": "Apfel Braeburn",
+    "price": 2.2,
+    "brand": "Coop",
+    "quantity_in_stock": 166
+  },
+  {
+    "id": 28,
+    "name": "Birnen Williams",
+    "price": 2.75,
+    "brand": "Coop",
+    "quantity_in_stock": 148
+  },
+  {
+    "id": 29,
+    "name": "Bananen",
+    "price": 1.8,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 206
+  },
+  {
+    "id": 30,
+    "name": "Orangen",
+    "price": 2.15,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 113
+  },
+  {
+    "id": 31,
+    "name": "Mandarinen",
+    "price": 2.45,
+    "brand": "Coop",
+    "quantity_in_stock": 88
+  },
+  {
+    "id": 32,
+    "name": "Kiwi",
+    "price": 1.0,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 132
+  },
+  {
+    "id": 33,
+    "name": "Trauben hell",
+    "price": 2.75,
+    "brand": "Coop",
+    "quantity_in_stock": 175
+  },
+  {
+    "id": 34,
+    "name": "Trauben blau",
+    "price": 3.25,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 84
+  },
+  {
+    "id": 35,
+    "name": "Ananas",
+    "price": 3.05,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 194
+  },
+  {
+    "id": 36,
+    "name": "Mango",
+    "price": 2.45,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 65
+  },
+  {
+    "id": 37,
+    "name": "Papaya",
+    "price": 2.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 167
+  },
+  {
+    "id": 38,
+    "name": "Zitronen",
+    "price": 1.05,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 139
+  },
+  {
+    "id": 39,
+    "name": "Limetten",
+    "price": 1.0,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 122
+  },
+  {
+    "id": 40,
+    "name": "Erdbeeren (250g)",
+    "price": 2.7,
+    "brand": "Coop",
+    "quantity_in_stock": 160
+  },
+  {
+    "id": 41,
+    "name": "Heidelbeeren (125g)",
+    "price": 2.6,
+    "brand": "Coop",
+    "quantity_in_stock": 250
+  },
+  {
+    "id": 42,
+    "name": "Himbeeren (125g)",
+    "price": 2.45,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 70
+  },
+  {
+    "id": 43,
+    "name": "Pouletbrust (300g)",
+    "price": 6.1,
+    "brand": "Naturafarm",
+    "quantity_in_stock": 91
+  },
+  {
+    "id": 44,
+    "name": "Rindshackfleisch (400g)",
+    "price": 6.6,
+    "brand": "Naturafarm",
+    "quantity_in_stock": 91
+  },
+  {
+    "id": 45,
+    "name": "Schweinskotelett (300g)",
+    "price": 5.55,
+    "brand": "Bell",
+    "quantity_in_stock": 47
+  },
+  {
+    "id": 46,
+    "name": "Kalbsgeschnetzeltes (300g)",
+    "price": 10.25,
+    "brand": "Coop",
+    "quantity_in_stock": 102
+  },
+  {
+    "id": 47,
+    "name": "Bratwürste (4 Stk)",
+    "price": 4.35,
+    "brand": "Bell",
+    "quantity_in_stock": 83
+  },
+  {
+    "id": 48,
+    "name": "Truthahn Brustaufschnitt",
+    "price": 3.7,
+    "brand": "Bell",
+    "quantity_in_stock": 58
+  },
+  {
+    "id": 49,
+    "name": "Speck Streifen",
+    "price": 2.95,
+    "brand": "Naturafarm",
+    "quantity_in_stock": 35
+  },
+  {
+    "id": 50,
+    "name": "Salsiccia (2 Stk)",
+    "price": 3.55,
+    "brand": "Bell",
+    "quantity_in_stock": 107
+  },
+  {
+    "id": 51,
+    "name": "Zopf Brot",
+    "price": 3.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 70
+  },
+  {
+    "id": 52,
+    "name": "Ruchbrot",
+    "price": 2.4,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 101
+  },
+  {
+    "id": 53,
+    "name": "Vollkornbrot",
+    "price": 2.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 180
+  },
+  {
+    "id": 54,
+    "name": "Gipfeli (Croissant)",
+    "price": 0.7,
+    "brand": "Coop",
+    "quantity_in_stock": 66
+  },
+  {
+    "id": 55,
+    "name": "Bürli",
+    "price": 0.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 25
+  },
+  {
+    "id": 56,
+    "name": "Baguette",
+    "price": 2.15,
+    "brand": "Coop",
+    "quantity_in_stock": 29
+  },
+  {
+    "id": 57,
+    "name": "Laugenbrezel",
+    "price": 0.85,
+    "brand": "Coop",
+    "quantity_in_stock": 103
+  },
+  {
+    "id": 58,
+    "name": "Toastbrot",
+    "price": 2.1,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 170
+  },
+  {
+    "id": 59,
+    "name": "Milch UHT 1.5% (1L)",
+    "price": 1.65,
+    "brand": "Coop",
+    "quantity_in_stock": 217
+  },
+  {
+    "id": 60,
+    "name": "Milch Vollmilch 3.5% (1L)",
+    "price": 1.55,
+    "brand": "Coop",
+    "quantity_in_stock": 224
+  },
+  {
+    "id": 61,
+    "name": "Joghurt Erdbeer (180g)",
+    "price": 0.6,
+    "brand": "Coop",
+    "quantity_in_stock": 62
+  },
+  {
+    "id": 62,
+    "name": "Joghurt Natur (180g)",
+    "price": 0.65,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 72
+  },
+  {
+    "id": 63,
+    "name": "Butter (250g)",
+    "price": 1.95,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 138
+  },
+  {
+    "id": 64,
+    "name": "Rahm (200ml)",
+    "price": 1.75,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 223
+  },
+  {
+    "id": 65,
+    "name": "Quark (250g)",
+    "price": 1.45,
+    "brand": "Coop",
+    "quantity_in_stock": 212
+  },
+  {
+    "id": 66,
+    "name": "Gruyère mild (100g)",
+    "price": 1.95,
+    "brand": "Gruyère AOP",
+    "quantity_in_stock": 103
+  },
+  {
+    "id": 67,
+    "name": "Emmentaler (100g)",
+    "price": 1.85,
+    "brand": "Gruyère AOP",
+    "quantity_in_stock": 77
+  },
+  {
+    "id": 68,
+    "name": "Raclette Käse (200g)",
+    "price": 3.65,
+    "brand": "Emmi",
+    "quantity_in_stock": 28
+  },
+  {
+    "id": 69,
+    "name": "Mozzarella (125g)",
+    "price": 0.85,
+    "brand": "Gruyère AOP",
+    "quantity_in_stock": 90
+  },
+  {
+    "id": 70,
+    "name": "Parmesan gerieben (100g)",
+    "price": 2.1,
+    "brand": "Emmi",
+    "quantity_in_stock": 20
+  },
+  {
+    "id": 71,
+    "name": "Appenzeller (100g)",
+    "price": 2.1,
+    "brand": "Gruyère AOP",
+    "quantity_in_stock": 27
+  },
+  {
+    "id": 72,
+    "name": "Feta (200g)",
+    "price": 1.8,
+    "brand": "Emmi",
+    "quantity_in_stock": 62
+  },
+  {
+    "id": 73,
+    "name": "Mineralwasser mit Kohlensäure (1.5L)",
+    "price": 0.35,
+    "brand": "Coop",
+    "quantity_in_stock": 202
+  },
+  {
+    "id": 74,
+    "name": "Mineralwasser still (1.5L)",
+    "price": 0.6,
+    "brand": "Coop",
+    "quantity_in_stock": 336
+  },
+  {
+    "id": 75,
+    "name": "Apfelschorle (1L)",
+    "price": 1.35,
+    "brand": "Rivella",
+    "quantity_in_stock": 184
+  },
+  {
+    "id": 76,
+    "name": "Orangensaft (1L)",
+    "price": 2.15,
+    "brand": "Rivella",
+    "quantity_in_stock": 157
+  },
+  {
+    "id": 77,
+    "name": "Rivella rot (500ml)",
+    "price": 1.5,
+    "brand": "Rivella",
+    "quantity_in_stock": 241
+  },
+  {
+    "id": 78,
+    "name": "Eistee Pfirsich (1.5L)",
+    "price": 1.55,
+    "brand": "Rivella",
+    "quantity_in_stock": 87
+  },
+  {
+    "id": 79,
+    "name": "Cola (1.5L)",
+    "price": 1.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 91
+  },
+  {
+    "id": 80,
+    "name": "Multivitaminsaft (1L)",
+    "price": 1.85,
+    "brand": "Ramseier",
+    "quantity_in_stock": 115
+  },
+  {
+    "id": 81,
+    "name": "Kaffee Bohnen (500g)",
+    "price": 6.7,
+    "brand": "Coop",
+    "quantity_in_stock": 334
+  },
+  {
+    "id": 82,
+    "name": "Tee Pfefferminze (20 Beutel)",
+    "price": 1.75,
+    "brand": "Rivella",
+    "quantity_in_stock": 153
+  },
+  {
+    "id": 83,
+    "name": "Eier Freiland 6er",
+    "price": 3.45,
+    "brand": "Coop Naturafarm",
+    "quantity_in_stock": 49
+  },
+  {
+    "id": 84,
+    "name": "Eier Bodenhaltung 10er",
+    "price": 4.15,
+    "brand": "Coop",
+    "quantity_in_stock": 55
+  },
+  {
+    "id": 85,
+    "name": "Eier Bio 6er",
+    "price": 4.5,
+    "brand": "Coop",
+    "quantity_in_stock": 33
+  },
+  {
+    "id": 86,
+    "name": "Spaghetti (500g)",
+    "price": 1.55,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 72
+  },
+  {
+    "id": 87,
+    "name": "Penne (500g)",
+    "price": 1.15,
+    "brand": "Knorr",
+    "quantity_in_stock": 84
+  },
+  {
+    "id": 88,
+    "name": "Reis Parboiled (1kg)",
+    "price": 2.65,
+    "brand": "Coop",
+    "quantity_in_stock": 72
+  },
+  {
+    "id": 89,
+    "name": "Basmatireis (1kg)",
+    "price": 3.2,
+    "brand": "Knorr",
+    "quantity_in_stock": 97
+  },
+  {
+    "id": 90,
+    "name": "Olivenöl Extra Vergine (500ml)",
+    "price": 5.5,
+    "brand": "Knorr",
+    "quantity_in_stock": 103
+  },
+  {
+    "id": 91,
+    "name": "Sonnenblumenöl (1L)",
+    "price": 2.35,
+    "brand": "Knorr",
+    "quantity_in_stock": 69
+  },
+  {
+    "id": 92,
+    "name": "Tomatenpassata (700g)",
+    "price": 1.4,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 44
+  },
+  {
+    "id": 93,
+    "name": "Tomatenstücke (400g)",
+    "price": 1.15,
+    "brand": "Coop",
+    "quantity_in_stock": 221
+  },
+  {
+    "id": 94,
+    "name": "Kichererbsen (400g)",
+    "price": 0.95,
+    "brand": "Coop",
+    "quantity_in_stock": 179
+  },
+  {
+    "id": 95,
+    "name": "Linsen rot (500g)",
+    "price": 2.1,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 44
+  },
+  {
+    "id": 96,
+    "name": "Weissbrotcroutons (150g)",
+    "price": 1.5,
+    "brand": "Coop",
+    "quantity_in_stock": 247
+  },
+  {
+    "id": 97,
+    "name": "Thunfisch in Wasser (3x80g)",
+    "price": 3.4,
+    "brand": "Coop",
+    "quantity_in_stock": 202
+  },
+  {
+    "id": 98,
+    "name": "Maiskörner (300g)",
+    "price": 1.35,
+    "brand": "Knorr",
+    "quantity_in_stock": 60
+  },
+  {
+    "id": 99,
+    "name": "Haferflocken (500g)",
+    "price": 1.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 178
+  },
+  {
+    "id": 100,
+    "name": "Zucker (1kg)",
+    "price": 1.55,
+    "brand": "Coop",
+    "quantity_in_stock": 137
+  },
+  {
+    "id": 101,
+    "name": "Mehl Weiss (1kg)",
+    "price": 1.5,
+    "brand": "Barilla",
+    "quantity_in_stock": 96
+  },
+  {
+    "id": 102,
+    "name": "Salz (500g)",
+    "price": 0.6,
+    "brand": "Barilla",
+    "quantity_in_stock": 91
+  },
+  {
+    "id": 103,
+    "name": "Pfeffer gemahlen (50g)",
+    "price": 1.45,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 201
+  },
+  {
+    "id": 104,
+    "name": "Backpulver (5x15g)",
+    "price": 1.2,
+    "brand": "Knorr",
+    "quantity_in_stock": 110
+  },
+  {
+    "id": 105,
+    "name": "Hefe frisch (42g)",
+    "price": 0.9,
+    "brand": "Coop",
+    "quantity_in_stock": 32
+  },
+  {
+    "id": 106,
+    "name": "Schokolade Milch (100g)",
+    "price": 1.05,
+    "brand": "Coop",
+    "quantity_in_stock": 48
+  },
+  {
+    "id": 107,
+    "name": "Schokolade Dunkel 72% (100g)",
+    "price": 1.45,
+    "brand": "Barilla",
+    "quantity_in_stock": 63
+  },
+  {
+    "id": 108,
+    "name": "Honig Blüten (250g)",
+    "price": 3.5,
+    "brand": "Coop",
+    "quantity_in_stock": 92
+  },
+  {
+    "id": 109,
+    "name": "Erdnussbutter (350g)",
+    "price": 2.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 142
+  },
+  {
+    "id": 110,
+    "name": "Marmelade Erdbeer (370g)",
+    "price": 2.35,
+    "brand": "Barilla",
+    "quantity_in_stock": 186
+  },
+  {
+    "id": 111,
+    "name": "Müsli Crunchy (500g)",
+    "price": 3.25,
+    "brand": "Coop",
+    "quantity_in_stock": 200
+  },
+  {
+    "id": 112,
+    "name": "Cornflakes (500g)",
+    "price": 2.6,
+    "brand": "Barilla",
+    "quantity_in_stock": 199
+  },
+  {
+    "id": 113,
+    "name": "Balsamico (500ml)",
+    "price": 2.1,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 97
+  },
+  {
+    "id": 114,
+    "name": "Sojasauce (150ml)",
+    "price": 1.55,
+    "brand": "Coop",
+    "quantity_in_stock": 220
+  },
+  {
+    "id": 115,
+    "name": "Salsa Tomate (350g)",
+    "price": 1.95,
+    "brand": "Barilla",
+    "quantity_in_stock": 102
+  },
+  {
+    "id": 116,
+    "name": "Pesto Genovese (190g)",
+    "price": 2.45,
+    "brand": "Barilla",
+    "quantity_in_stock": 82
+  },
+  {
+    "id": 117,
+    "name": "Ravioli Dose (400g)",
+    "price": 1.85,
+    "brand": "Barilla",
+    "quantity_in_stock": 159
+  },
+  {
+    "id": 118,
+    "name": "Bouillon Gemüse (8 Würfel)",
+    "price": 1.5,
+    "brand": "Coop",
+    "quantity_in_stock": 53
+  },
+  {
+    "id": 119,
+    "name": "Mayonnaise (250g)",
+    "price": 1.8,
+    "brand": "Barilla",
+    "quantity_in_stock": 41
+  },
+  {
+    "id": 120,
+    "name": "Senf (200g)",
+    "price": 0.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 193
+  },
+  {
+    "id": 121,
+    "name": "Spülmittel (500ml)",
+    "price": 1.85,
+    "brand": "Oecoplan",
+    "quantity_in_stock": 219
+  },
+  {
+    "id": 122,
+    "name": "Waschmittel flüssig (1.5L)",
+    "price": 5.85,
+    "brand": "Coop",
+    "quantity_in_stock": 139
+  },
+  {
+    "id": 123,
+    "name": "Toilettenpapier 8er",
+    "price": 3.95,
+    "brand": "Oecoplan",
+    "quantity_in_stock": 49
+  },
+  {
+    "id": 124,
+    "name": "Küchenrollen 4er",
+    "price": 3.2,
+    "brand": "Coop",
+    "quantity_in_stock": 68
+  },
+  {
+    "id": 125,
+    "name": "Müllsäcke 35L (10 Stk)",
+    "price": 2.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 179
+  },
+  {
+    "id": 126,
+    "name": "Alufolie (20m)",
+    "price": 1.95,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 62
+  },
+  {
+    "id": 127,
+    "name": "Backpapier (16m)",
+    "price": 1.8,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 233
+  },
+  {
+    "id": 128,
+    "name": "Schwämme (3 Stk)",
+    "price": 1.75,
+    "brand": "Oecoplan",
+    "quantity_in_stock": 121
+  },
+  {
+    "id": 129,
+    "name": "Kartoffelchips Nature (200g)",
+    "price": 1.7,
+    "brand": "Frey",
+    "quantity_in_stock": 200
+  },
+  {
+    "id": 130,
+    "name": "Salzstangen (250g)",
+    "price": 1.1,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 134
+  },
+  {
+    "id": 131,
+    "name": "Popcorn salzig (100g)",
+    "price": 1.55,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 69
+  },
+  {
+    "id": 132,
+    "name": "Nüsse Mix (200g)",
+    "price": 3.5,
+    "brand": "Frey",
+    "quantity_in_stock": 71
+  },
+  {
+    "id": 133,
+    "name": "Reiswaffeln (130g)",
+    "price": 1.45,
+    "brand": "Frey",
+    "quantity_in_stock": 135
+  },
+  {
+    "id": 134,
+    "name": "Kekse Butter (200g)",
+    "price": 1.25,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 115
+  },
+  {
+    "id": 135,
+    "name": "Pizza Margherita (300g)",
+    "price": 3.4,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 235
+  },
+  {
+    "id": 136,
+    "name": "Pizza Prosciutto (320g)",
+    "price": 3.7,
+    "brand": "Findus",
+    "quantity_in_stock": 237
+  },
+  {
+    "id": 137,
+    "name": "Pommes Frites (1kg)",
+    "price": 2.7,
+    "brand": "Coop",
+    "quantity_in_stock": 231
+  },
+  {
+    "id": 138,
+    "name": "Gemüsemix TK (750g)",
+    "price": 2.75,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 39
+  },
+  {
+    "id": 139,
+    "name": "Spinat gehackt TK (500g)",
+    "price": 2.15,
+    "brand": "Coop",
+    "quantity_in_stock": 81
+  },
+  {
+    "id": 140,
+    "name": "Beerenmischung TK (300g)",
+    "price": 3.1,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 119
+  },
+  {
+    "id": 141,
+    "name": "Tomaten Bio",
+    "price": 2.3,
+    "brand": "Coop",
+    "quantity_in_stock": 87
+  },
+  {
+    "id": 142,
+    "name": "Tomaten Mini",
+    "price": 1.75,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 101
+  },
+  {
+    "id": 143,
+    "name": "Tomaten Familienpack",
+    "price": 2.7,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 119
+  },
+  {
+    "id": 144,
+    "name": "Gurke Bio",
+    "price": 1.3,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 114
+  },
+  {
+    "id": 145,
+    "name": "Gurke Mini",
+    "price": 1.25,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 75
+  },
+  {
+    "id": 146,
+    "name": "Gurke Familienpack",
+    "price": 1.7,
+    "brand": "Coop",
+    "quantity_in_stock": 57
+  },
+  {
+    "id": 147,
+    "name": "Karotten Bio",
+    "price": 1.15,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 141
+  },
+  {
+    "id": 148,
+    "name": "Karotten Mini",
+    "price": 1.25,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 177
+  },
+  {
+    "id": 149,
+    "name": "Karotten Familienpack",
+    "price": 0.75,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 30
+  },
+  {
+    "id": 150,
+    "name": "Zwiebeln Bio",
+    "price": 1.3,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 214
+  },
+  {
+    "id": 151,
+    "name": "Zwiebeln Mini",
+    "price": 1.5,
+    "brand": "Coop",
+    "quantity_in_stock": 123
+  },
+  {
+    "id": 152,
+    "name": "Zwiebeln Familienpack",
+    "price": 1.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 189
+  },
+  {
+    "id": 153,
+    "name": "Paprika rot Bio",
+    "price": 1.95,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 106
+  },
+  {
+    "id": 154,
+    "name": "Paprika rot Mini",
+    "price": 1.9,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 133
+  },
+  {
+    "id": 155,
+    "name": "Paprika rot Familienpack",
+    "price": 1.95,
+    "brand": "Coop",
+    "quantity_in_stock": 137
+  },
+  {
+    "id": 156,
+    "name": "Paprika gelb Bio",
+    "price": 1.8,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 74
+  },
+  {
+    "id": 157,
+    "name": "Paprika gelb Mini",
+    "price": 1.7,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 243
+  },
+  {
+    "id": 158,
+    "name": "Paprika gelb Familienpack",
+    "price": 1.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 231
+  },
+  {
+    "id": 159,
+    "name": "Paprika grün Bio",
+    "price": 1.85,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 143
+  },
+  {
+    "id": 160,
+    "name": "Paprika grün Mini",
+    "price": 1.45,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 233
+  },
+  {
+    "id": 161,
+    "name": "Paprika grün Familienpack",
+    "price": 2.1,
+    "brand": "Coop",
+    "quantity_in_stock": 198
+  },
+  {
+    "id": 162,
+    "name": "Brokkoli Bio",
+    "price": 1.9,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 188
+  },
+  {
+    "id": 163,
+    "name": "Brokkoli Mini",
+    "price": 2.25,
+    "brand": "Coop",
+    "quantity_in_stock": 202
+  },
+  {
+    "id": 164,
+    "name": "Brokkoli Familienpack",
+    "price": 2.2,
+    "brand": "Coop",
+    "quantity_in_stock": 36
+  },
+  {
+    "id": 165,
+    "name": "Blumenkohl Bio",
+    "price": 2.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 247
+  },
+  {
+    "id": 166,
+    "name": "Blumenkohl Mini",
+    "price": 2.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 177
+  },
+  {
+    "id": 167,
+    "name": "Blumenkohl Familienpack",
+    "price": 2.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 132
+  },
+  {
+    "id": 168,
+    "name": "Spinat Bio",
+    "price": 1.9,
+    "brand": "Coop",
+    "quantity_in_stock": 222
+  },
+  {
+    "id": 169,
+    "name": "Spinat Mini",
+    "price": 2.35,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 86
+  },
+  {
+    "id": 170,
+    "name": "Spinat Familienpack",
+    "price": 2.05,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 148
+  },
+  {
+    "id": 171,
+    "name": "Apfel Gala Bio",
+    "price": 1.8,
+    "brand": "Coop",
+    "quantity_in_stock": 146
+  },
+  {
+    "id": 172,
+    "name": "Apfel Gala XL",
+    "price": 2.0,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 173
+  },
+  {
+    "id": 173,
+    "name": "Apfel Gala Snackpack",
+    "price": 2.55,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 186
+  },
+  {
+    "id": 174,
+    "name": "Apfel Braeburn Bio",
+    "price": 2.55,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 242
+  },
+  {
+    "id": 175,
+    "name": "Apfel Braeburn XL",
+    "price": 2.25,
+    "brand": "Coop",
+    "quantity_in_stock": 220
+  },
+  {
+    "id": 176,
+    "name": "Apfel Braeburn Snackpack",
+    "price": 2.25,
+    "brand": "Coop",
+    "quantity_in_stock": 245
+  },
+  {
+    "id": 177,
+    "name": "Birnen Williams Bio",
+    "price": 2.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 154
+  },
+  {
+    "id": 178,
+    "name": "Birnen Williams XL",
+    "price": 2.5,
+    "brand": "Coop",
+    "quantity_in_stock": 212
+  },
+  {
+    "id": 179,
+    "name": "Birnen Williams Snackpack",
+    "price": 2.35,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 168
+  },
+  {
+    "id": 180,
+    "name": "Bananen Bio",
+    "price": 1.45,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 207
+  },
+  {
+    "id": 181,
+    "name": "Bananen XL",
+    "price": 1.55,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 134
+  },
+  {
+    "id": 182,
+    "name": "Bananen Snackpack",
+    "price": 1.8,
+    "brand": "Coop",
+    "quantity_in_stock": 82
+  },
+  {
+    "id": 183,
+    "name": "Orangen Bio",
+    "price": 2.2,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 208
+  },
+  {
+    "id": 184,
+    "name": "Orangen XL",
+    "price": 2.15,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 127
+  },
+  {
+    "id": 185,
+    "name": "Orangen Snackpack",
+    "price": 2.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 222
+  },
+  {
+    "id": 186,
+    "name": "Mandarinen Bio",
+    "price": 2.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 167
+  },
+  {
+    "id": 187,
+    "name": "Mandarinen XL",
+    "price": 2.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 86
+  },
+  {
+    "id": 188,
+    "name": "Mandarinen Snackpack",
+    "price": 2.05,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 37
+  },
+  {
+    "id": 189,
+    "name": "Kiwi Bio",
+    "price": 0.8,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 215
+  },
+  {
+    "id": 190,
+    "name": "Kiwi XL",
+    "price": 0.55,
+    "brand": "Coop",
+    "quantity_in_stock": 189
+  },
+  {
+    "id": 191,
+    "name": "Kiwi Snackpack",
+    "price": 1.05,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 174
+  },
+  {
+    "id": 192,
+    "name": "Trauben hell Bio",
+    "price": 2.7,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 64
+  },
+  {
+    "id": 193,
+    "name": "Trauben hell XL",
+    "price": 2.85,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 127
+  },
+  {
+    "id": 194,
+    "name": "Trauben hell Snackpack",
+    "price": 2.8,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 224
+  },
+  {
+    "id": 195,
+    "name": "Trauben blau Bio",
+    "price": 3.05,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 94
+  },
+  {
+    "id": 196,
+    "name": "Trauben blau XL",
+    "price": 3.15,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 168
+  },
+  {
+    "id": 197,
+    "name": "Trauben blau Snackpack",
+    "price": 3.1,
+    "brand": "Coop",
+    "quantity_in_stock": 196
+  },
+  {
+    "id": 198,
+    "name": "Ananas Bio",
+    "price": 3.05,
+    "brand": "Coop",
+    "quantity_in_stock": 223
+  },
+  {
+    "id": 199,
+    "name": "Ananas XL",
+    "price": 2.55,
+    "brand": "Coop",
+    "quantity_in_stock": 189
+  },
+  {
+    "id": 200,
+    "name": "Ananas Snackpack",
+    "price": 2.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 59
+  },
+  {
+    "id": 201,
+    "name": "Zopf Brot Bio",
+    "price": 3.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 95
+  },
+  {
+    "id": 202,
+    "name": "Zopf Brot Sesam",
+    "price": 3.4,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 221
+  },
+  {
+    "id": 203,
+    "name": "Zopf Brot Mehrkorn",
+    "price": 3.8,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 109
+  },
+  {
+    "id": 204,
+    "name": "Ruchbrot Bio",
+    "price": 1.85,
+    "brand": "Coop",
+    "quantity_in_stock": 177
+  },
+  {
+    "id": 205,
+    "name": "Ruchbrot Sesam",
+    "price": 2.8,
+    "brand": "Coop",
+    "quantity_in_stock": 213
+  },
+  {
+    "id": 206,
+    "name": "Ruchbrot Mehrkorn",
+    "price": 2.3,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 92
+  },
+  {
+    "id": 207,
+    "name": "Vollkornbrot Bio",
+    "price": 2.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 183
+  },
+  {
+    "id": 208,
+    "name": "Vollkornbrot Sesam",
+    "price": 2.95,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 230
+  },
+  {
+    "id": 209,
+    "name": "Vollkornbrot Mehrkorn",
+    "price": 2.4,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 124
+  },
+  {
+    "id": 210,
+    "name": "Gipfeli (Croissant) Bio",
+    "price": 0.8,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 247
+  },
+  {
+    "id": 211,
+    "name": "Gipfeli (Croissant) Sesam",
+    "price": 0.85,
+    "brand": "Coop",
+    "quantity_in_stock": 122
+  },
+  {
+    "id": 212,
+    "name": "Gipfeli (Croissant) Mehrkorn",
+    "price": 1.2,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 69
+  },
+  {
+    "id": 213,
+    "name": "Bürli Bio",
+    "price": 0.95,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 99
+  },
+  {
+    "id": 214,
+    "name": "Bürli Sesam",
+    "price": 1.15,
+    "brand": "Coop",
+    "quantity_in_stock": 149
+  },
+  {
+    "id": 215,
+    "name": "Bürli Mehrkorn",
+    "price": 0.95,
+    "brand": "Coop",
+    "quantity_in_stock": 112
+  },
+  {
+    "id": 216,
+    "name": "Baguette Bio",
+    "price": 2.5,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 101
+  },
+  {
+    "id": 217,
+    "name": "Baguette Sesam",
+    "price": 2.1,
+    "brand": "Coop",
+    "quantity_in_stock": 175
+  },
+  {
+    "id": 218,
+    "name": "Baguette Mehrkorn",
+    "price": 2.05,
+    "brand": "Coop Bäckerei",
+    "quantity_in_stock": 156
+  },
+  {
+    "id": 219,
+    "name": "Milch UHT 1.5% (1L) Laktosefrei",
+    "price": 1.3,
+    "brand": "Coop",
+    "quantity_in_stock": 120
+  },
+  {
+    "id": 220,
+    "name": "Milch UHT 1.5% (1L) Light",
+    "price": 1.4,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 209
+  },
+  {
+    "id": 221,
+    "name": "Milch Vollmilch 3.5% (1L) Laktosefrei",
+    "price": 1.8,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 78
+  },
+  {
+    "id": 222,
+    "name": "Milch Vollmilch 3.5% (1L) Light",
+    "price": 1.5,
+    "brand": "Emmi",
+    "quantity_in_stock": 172
+  },
+  {
+    "id": 223,
+    "name": "Joghurt Erdbeer (180g) Laktosefrei",
+    "price": 0.85,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 212
+  },
+  {
+    "id": 224,
+    "name": "Joghurt Erdbeer (180g) Light",
+    "price": 0.8,
+    "brand": "Coop",
+    "quantity_in_stock": 105
+  },
+  {
+    "id": 225,
+    "name": "Joghurt Natur (180g) Laktosefrei",
+    "price": 0.55,
+    "brand": "Emmi",
+    "quantity_in_stock": 199
+  },
+  {
+    "id": 226,
+    "name": "Joghurt Natur (180g) Light",
+    "price": 0.55,
+    "brand": "Naturaplan",
+    "quantity_in_stock": 118
+  },
+  {
+    "id": 227,
+    "name": "Butter (250g) Laktosefrei",
+    "price": 2.25,
+    "brand": "Emmi",
+    "quantity_in_stock": 120
+  },
+  {
+    "id": 228,
+    "name": "Butter (250g) Light",
+    "price": 2.05,
+    "brand": "Emmi",
+    "quantity_in_stock": 89
+  },
+  {
+    "id": 229,
+    "name": "Gruyère mild (100g) mild",
+    "price": 1.7,
+    "brand": "Emmi",
+    "quantity_in_stock": 220
+  },
+  {
+    "id": 230,
+    "name": "Gruyère mild (100g) rezent",
+    "price": 2.3,
+    "brand": "Emmi",
+    "quantity_in_stock": 79
+  },
+  {
+    "id": 231,
+    "name": "Emmentaler (100g) mild",
+    "price": 1.8,
+    "brand": "Gruyère AOP",
+    "quantity_in_stock": 180
+  },
+  {
+    "id": 232,
+    "name": "Emmentaler (100g) rezent",
+    "price": 2.2,
+    "brand": "Coop",
+    "quantity_in_stock": 55
+  },
+  {
+    "id": 233,
+    "name": "Raclette Käse (200g) mild",
+    "price": 3.9,
+    "brand": "Coop",
+    "quantity_in_stock": 75
+  },
+  {
+    "id": 234,
+    "name": "Raclette Käse (200g) rezent",
+    "price": 3.95,
+    "brand": "Emmi",
+    "quantity_in_stock": 100
+  },
+  {
+    "id": 235,
+    "name": "Mozzarella (125g) mild",
+    "price": 0.4,
+    "brand": "Coop",
+    "quantity_in_stock": 208
+  },
+  {
+    "id": 236,
+    "name": "Mozzarella (125g) rezent",
+    "price": 1.25,
+    "brand": "Coop",
+    "quantity_in_stock": 56
+  },
+  {
+    "id": 237,
+    "name": "Parmesan gerieben (100g) mild",
+    "price": 2.55,
+    "brand": "Coop",
+    "quantity_in_stock": 152
+  },
+  {
+    "id": 238,
+    "name": "Parmesan gerieben (100g) rezent",
+    "price": 2.05,
+    "brand": "Emmi",
+    "quantity_in_stock": 94
+  },
+  {
+    "id": 239,
+    "name": "Mineralwasser mit Kohlensäure (1.5L) Zero",
+    "price": 0.75,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 132
+  },
+  {
+    "id": 240,
+    "name": "Mineralwasser mit Kohlensäure (1.5L) Light",
+    "price": 0.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 68
+  },
+  {
+    "id": 241,
+    "name": "Mineralwasser mit Kohlensäure (1.5L) Family",
+    "price": 0.4,
+    "brand": "Ramseier",
+    "quantity_in_stock": 51
+  },
+  {
+    "id": 242,
+    "name": "Mineralwasser still (1.5L) Zero",
+    "price": 0.5,
+    "brand": "Rivella",
+    "quantity_in_stock": 185
+  },
+  {
+    "id": 243,
+    "name": "Mineralwasser still (1.5L) Light",
+    "price": 0.65,
+    "brand": "Rivella",
+    "quantity_in_stock": 145
+  },
+  {
+    "id": 244,
+    "name": "Mineralwasser still (1.5L) Family",
+    "price": 0.55,
+    "brand": "Rivella",
+    "quantity_in_stock": 108
+  },
+  {
+    "id": 245,
+    "name": "Apfelschorle (1L) Zero",
+    "price": 1.35,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 225
+  },
+  {
+    "id": 246,
+    "name": "Apfelschorle (1L) Light",
+    "price": 1.25,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 70
+  },
+  {
+    "id": 247,
+    "name": "Apfelschorle (1L) Family",
+    "price": 1.5,
+    "brand": "Coop",
+    "quantity_in_stock": 30
+  },
+  {
+    "id": 248,
+    "name": "Orangensaft (1L) Zero",
+    "price": 2.05,
+    "brand": "Rivella",
+    "quantity_in_stock": 104
+  },
+  {
+    "id": 249,
+    "name": "Orangensaft (1L) Light",
+    "price": 1.55,
+    "brand": "Ramseier",
+    "quantity_in_stock": 209
+  },
+  {
+    "id": 250,
+    "name": "Orangensaft (1L) Family",
+    "price": 1.85,
+    "brand": "Coop",
+    "quantity_in_stock": 97
+  },
+  {
+    "id": 251,
+    "name": "Rivella rot (500ml) Zero",
+    "price": 2.05,
+    "brand": "Coop",
+    "quantity_in_stock": 138
+  },
+  {
+    "id": 252,
+    "name": "Rivella rot (500ml) Light",
+    "price": 1.4,
+    "brand": "Coop",
+    "quantity_in_stock": 98
+  },
+  {
+    "id": 253,
+    "name": "Rivella rot (500ml) Family",
+    "price": 1.65,
+    "brand": "Coop",
+    "quantity_in_stock": 232
+  },
+  {
+    "id": 254,
+    "name": "Eistee Pfirsich (1.5L) Zero",
+    "price": 1.7,
+    "brand": "Ramseier",
+    "quantity_in_stock": 142
+  },
+  {
+    "id": 255,
+    "name": "Eistee Pfirsich (1.5L) Light",
+    "price": 1.55,
+    "brand": "Rivella",
+    "quantity_in_stock": 99
+  },
+  {
+    "id": 256,
+    "name": "Eistee Pfirsich (1.5L) Family",
+    "price": 1.6,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 183
+  },
+  {
+    "id": 257,
+    "name": "Spaghetti (500g) Bio",
+    "price": 0.9,
+    "brand": "Barilla",
+    "quantity_in_stock": 184
+  },
+  {
+    "id": 258,
+    "name": "Spaghetti (500g) Vollkorn",
+    "price": 0.8,
+    "brand": "Coop",
+    "quantity_in_stock": 225
+  },
+  {
+    "id": 259,
+    "name": "Spaghetti (500g) Family",
+    "price": 1.1,
+    "brand": "Coop",
+    "quantity_in_stock": 225
+  },
+  {
+    "id": 260,
+    "name": "Penne (500g) Bio",
+    "price": 1.3,
+    "brand": "Knorr",
+    "quantity_in_stock": 101
+  },
+  {
+    "id": 261,
+    "name": "Penne (500g) Vollkorn",
+    "price": 1.1,
+    "brand": "Knorr",
+    "quantity_in_stock": 53
+  },
+  {
+    "id": 262,
+    "name": "Penne (500g) Family",
+    "price": 1.1,
+    "brand": "Barilla",
+    "quantity_in_stock": 201
+  },
+  {
+    "id": 263,
+    "name": "Reis Parboiled (1kg) Bio",
+    "price": 1.95,
+    "brand": "Knorr",
+    "quantity_in_stock": 207
+  },
+  {
+    "id": 264,
+    "name": "Reis Parboiled (1kg) Vollkorn",
+    "price": 2.5,
+    "brand": "Knorr",
+    "quantity_in_stock": 238
+  },
+  {
+    "id": 265,
+    "name": "Reis Parboiled (1kg) Family",
+    "price": 2.2,
+    "brand": "Coop",
+    "quantity_in_stock": 110
+  },
+  {
+    "id": 266,
+    "name": "Basmatireis (1kg) Bio",
+    "price": 2.9,
+    "brand": "Knorr",
+    "quantity_in_stock": 161
+  },
+  {
+    "id": 267,
+    "name": "Basmatireis (1kg) Vollkorn",
+    "price": 3.1,
+    "brand": "Knorr",
+    "quantity_in_stock": 135
+  },
+  {
+    "id": 268,
+    "name": "Basmatireis (1kg) Family",
+    "price": 3.1,
+    "brand": "Knorr",
+    "quantity_in_stock": 190
+  },
+  {
+    "id": 269,
+    "name": "Olivenöl Extra Vergine (500ml) Bio",
+    "price": 4.85,
+    "brand": "Barilla",
+    "quantity_in_stock": 170
+  },
+  {
+    "id": 270,
+    "name": "Olivenöl Extra Vergine (500ml) Vollkorn",
+    "price": 4.85,
+    "brand": "Knorr",
+    "quantity_in_stock": 61
+  },
+  {
+    "id": 271,
+    "name": "Olivenöl Extra Vergine (500ml) Family",
+    "price": 5.05,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 211
+  },
+  {
+    "id": 272,
+    "name": "Sonnenblumenöl (1L) Bio",
+    "price": 2.25,
+    "brand": "Knorr",
+    "quantity_in_stock": 53
+  },
+  {
+    "id": 273,
+    "name": "Sonnenblumenöl (1L) Vollkorn",
+    "price": 2.5,
+    "brand": "Coop",
+    "quantity_in_stock": 148
+  },
+  {
+    "id": 274,
+    "name": "Sonnenblumenöl (1L) Family",
+    "price": 2.75,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 157
+  },
+  {
+    "id": 275,
+    "name": "Tomatenpassata (700g) Bio",
+    "price": 1.65,
+    "brand": "Barilla",
+    "quantity_in_stock": 136
+  },
+  {
+    "id": 276,
+    "name": "Tomatenpassata (700g) Vollkorn",
+    "price": 2.1,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 146
+  },
+  {
+    "id": 277,
+    "name": "Tomatenpassata (700g) Family",
+    "price": 1.55,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 47
+  },
+  {
+    "id": 278,
+    "name": "Tomatenstücke (400g) Bio",
+    "price": 1.2,
+    "brand": "Knorr",
+    "quantity_in_stock": 117
+  },
+  {
+    "id": 279,
+    "name": "Tomatenstücke (400g) Vollkorn",
+    "price": 1.3,
+    "brand": "Coop",
+    "quantity_in_stock": 102
+  },
+  {
+    "id": 280,
+    "name": "Tomatenstücke (400g) Family",
+    "price": 1.45,
+    "brand": "Knorr",
+    "quantity_in_stock": 68
+  },
+  {
+    "id": 281,
+    "name": "Kichererbsen (400g) Bio",
+    "price": 1.05,
+    "brand": "Barilla",
+    "quantity_in_stock": 171
+  },
+  {
+    "id": 282,
+    "name": "Kichererbsen (400g) Vollkorn",
+    "price": 1.15,
+    "brand": "Barilla",
+    "quantity_in_stock": 78
+  },
+  {
+    "id": 283,
+    "name": "Kichererbsen (400g) Family",
+    "price": 1.15,
+    "brand": "Knorr",
+    "quantity_in_stock": 89
+  },
+  {
+    "id": 284,
+    "name": "Linsen rot (500g) Bio",
+    "price": 2.2,
+    "brand": "Barilla",
+    "quantity_in_stock": 220
+  },
+  {
+    "id": 285,
+    "name": "Linsen rot (500g) Vollkorn",
+    "price": 2.4,
+    "brand": "Knorr",
+    "quantity_in_stock": 128
+  },
+  {
+    "id": 286,
+    "name": "Linsen rot (500g) Family",
+    "price": 2.55,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 156
+  },
+  {
+    "id": 287,
+    "name": "Kartoffelchips Nature (200g) Paprika",
+    "price": 1.85,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 114
+  },
+  {
+    "id": 288,
+    "name": "Kartoffelchips Nature (200g) Sour Cream",
+    "price": 2.35,
+    "brand": "Coop",
+    "quantity_in_stock": 55
+  },
+  {
+    "id": 289,
+    "name": "Kartoffelchips Nature (200g) BBQ",
+    "price": 1.9,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 66
+  },
+  {
+    "id": 290,
+    "name": "Salzstangen (250g) Paprika",
+    "price": 1.45,
+    "brand": "Frey",
+    "quantity_in_stock": 49
+  },
+  {
+    "id": 291,
+    "name": "Salzstangen (250g) Sour Cream",
+    "price": 1.7,
+    "brand": "Coop",
+    "quantity_in_stock": 189
+  },
+  {
+    "id": 292,
+    "name": "Salzstangen (250g) BBQ",
+    "price": 1.6,
+    "brand": "Coop",
+    "quantity_in_stock": 248
+  },
+  {
+    "id": 293,
+    "name": "Popcorn salzig (100g) Paprika",
+    "price": 1.3,
+    "brand": "Coop",
+    "quantity_in_stock": 190
+  },
+  {
+    "id": 294,
+    "name": "Popcorn salzig (100g) Sour Cream",
+    "price": 1.5,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 39
+  },
+  {
+    "id": 295,
+    "name": "Popcorn salzig (100g) BBQ",
+    "price": 1.05,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 103
+  },
+  {
+    "id": 296,
+    "name": "Nüsse Mix (200g) Paprika",
+    "price": 3.6,
+    "brand": "Coop",
+    "quantity_in_stock": 55
+  },
+  {
+    "id": 297,
+    "name": "Nüsse Mix (200g) Sour Cream",
+    "price": 3.45,
+    "brand": "Frey",
+    "quantity_in_stock": 143
+  },
+  {
+    "id": 298,
+    "name": "Nüsse Mix (200g) BBQ",
+    "price": 2.9,
+    "brand": "Frey",
+    "quantity_in_stock": 41
+  },
+  {
+    "id": 299,
+    "name": "Pizza Margherita (300g) Family",
+    "price": 2.8,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 125
+  },
+  {
+    "id": 300,
+    "name": "Pizza Margherita (300g) Bio",
+    "price": 3.0,
+    "brand": "Prix Garantie",
+    "quantity_in_stock": 174
+  },
+  {
+    "id": 301,
+    "name": "Pizza Prosciutto (320g) Family",
+    "price": 3.45,
+    "brand": "Coop",
+    "quantity_in_stock": 50
+  },
+  {
+    "id": 302,
+    "name": "Pizza Prosciutto (320g) Bio",
+    "price": 3.55,
+    "brand": "Findus",
+    "quantity_in_stock": 91
+  },
+  {
+    "id": 303,
+    "name": "Pommes Frites (1kg) Family",
+    "price": 2.95,
+    "brand": "Coop",
+    "quantity_in_stock": 148
+  },
+  {
+    "id": 304,
+    "name": "Pommes Frites (1kg) Bio",
+    "price": 2.95,
+    "brand": "Findus",
+    "quantity_in_stock": 32
+  }
+]

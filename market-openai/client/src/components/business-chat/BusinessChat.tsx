@@ -2,8 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { RiRobot2Line } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa6";
+import { FaQuestionCircle } from "react-icons/fa";
 import images from "../../assets/images";
-import { Chat, Container, Header } from "./styles";
+import { Chat, Container, Questions, Header, HeaderWrapper } from "./styles";
 import { businessChatService } from "../../services/businessChatService";
 import Loader from "../common/loader/Loader";
 import { toast } from "sonner";
@@ -13,11 +14,31 @@ interface ChatMessage {
   type: "user" | "ai";
 }
 
+const instructions = [
+  {
+    text: "Produktverfügbarkeit: „Welche Früchte gibt es bei Coop?“",
+  },
+  {
+    text: "Produktstandort: „Wo finde ich die Milch?“",
+  },
+  {
+    text: "Öffnungszeiten: „Wann schließt Coop?“",
+  },
+  {
+    text: "Kontaktinformationen: „Wie lautet die Telefonnummer von Coop?“",
+  },
+];
+
 const BusinessChat = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const [chatText, setChatText] = useState("");
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
   const [loading, setLoading] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const hanfleClick = () => {
+    setClick((prev) => !prev);
+  };
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -33,7 +54,10 @@ const BusinessChat = () => {
       return;
     }
 
-    setChatHistory((prev) => [...prev, { text: chatText, type: "user" }]);
+    setChatHistory((prev) => [...prev, {
+       text: chatText,
+       type: "user"
+      }]);
     setLoading(true);
 
     try {
@@ -66,11 +90,26 @@ const BusinessChat = () => {
   return (
     <Container>
       <Header>
-        <img
-          src={images.shoppingBag}
-          alt="shopping bag"
-          className="header__img"
-        />
+        <HeaderWrapper>
+          <img
+            src={images.shoppingBag}
+            alt="shopping bag"
+            className={`header__img`}
+          />
+          <Questions
+            as={motion.div}
+            initial={{ x: "-20rem", opacity: 0 }}
+            animate={{ x: click ? 0 : "-20rem", opacity: click ? 1 : 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <span>Stelle Fragen zu Lebensmitteln bei Coop Zürich!</span>
+            {instructions.map((instruction, index) => (
+              <div key={index} className="question">
+                <p>- {instruction.text}</p>
+              </div>
+            ))}
+          </Questions>
+        </HeaderWrapper>
         <motion.h1
           initial={{ y: "-10vh", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -82,6 +121,7 @@ const BusinessChat = () => {
       </Header>
 
       <Chat>
+        <FaQuestionCircle onClick={hanfleClick} className="icon-m" />
         <div className="chat__messages">
           {chatHistory.map((msg, index) => (
             <motion.div

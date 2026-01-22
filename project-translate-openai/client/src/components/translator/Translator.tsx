@@ -15,6 +15,7 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { RiRobot2Line } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa6";
 import Loader from "../common/loader/Loader";
+import Loader1 from "../common/loader/Loader1";
 import { toast } from "sonner";
 
 const BOX_COUNT = 10;
@@ -39,6 +40,7 @@ const languages = [
 
 const Translator = () => {
   const [loading, setLoading] = useState(false);
+  const [showLoader, setShowLoader] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const [messages, setMessages] = useState<IMessage[]>([]);
   const [chatText, setChatText] = useState("");
@@ -75,12 +77,21 @@ const Translator = () => {
 
   useEffect(() => {
     const fetchMessages = async () => {
-      const messages = await getMessages();
-      if (Array.isArray(messages)) {
-        setMessages(messages);
-      } else {
-        console.warn("The API response is not an array");
+      setShowLoader(true);
+
+      try {
+        const messages = await getMessages();
+        if (Array.isArray(messages)) {
+          setMessages(messages);
+        } else {
+          console.warn("The API response is not an array");
+          setMessages([]);
+        }
+      } catch (error) {
+        console.error("Error fetching messages:", error);
         setMessages([]);
+      } finally {
+        setShowLoader(false);
       }
     };
 
@@ -284,13 +295,21 @@ const Translator = () => {
 
       <section className="chat__instructions">
         <h2 className="instructions__title">Instructions:</h2>
-        <ul className="instructions__list">
-          {messages.map((message, index) => (
-            <li key={index} className="instructions__item">
-              {message.message}
-            </li>
-          ))}
-        </ul>
+        {showLoader ? (
+          <div className="chat__loading">
+            <Loader1 />
+          </div>
+        ) : messages.length > 0 ? (
+          <ul className="instructions__list">
+            {messages.map((message, index) => (
+              <li key={index} className="instructions__item">
+                {message.message}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="instructions__empty">No instructions available.</p>
+        )}
       </section>
     </div>
   );
